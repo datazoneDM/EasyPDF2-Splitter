@@ -33,3 +33,13 @@ This product includes software developed by iText Software.
 * **More Info:** https://itextpdf.com
 
 If you use this software over a network or distribute it, you must provide access to the complete corresponding source code as required by the AGPL license.
+
+## 설정 및 입력 파일 포맷 안내
+
+### 1. EasyPDF.cfg (실행 설정 파일)
+실행 파일 경로 또는 지정된 설정 경로에 아래와 같은 `Key:Value` 형식의 텍스트 파일(CP949 인코딩)을 배치합니다.
+```text
+pdf입력경로:C:\Sample\Input\
+개발계컴퓨터:DEV_PC_NAME
+파일이동개발:C:\Sample\Output\Dev\
+파일이동운영:C:\Sample\Output\Prod\
